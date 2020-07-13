@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest schemaVersion="1.1" templateType="Project" 
+  xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>MessageDemo</name>
+    <id>8e7b4b9a-c72d-4874-b73a-dd1b5319baae</id>
+    <version>1.0.0</version>
+    <title>MessageDemo</title>
+    <description>my sample template</description>
+    <author>Art Deco</author>
+    <tags></tags>
+  </metadata>
+  <parameters>
+    <parameter name='ModuleName' type='text' prompt='Enter the name of the module'/>
+    <parameter name='Version' type='text' prompt='Enter the initial module version' default = '0.1.0'/>
+    <parameter name='Description' type='text' prompt='Enter a description of this module'/>
+    <parameter name="ModuleAuthor" type='user-fullname' prompt='Enter the module author name'/>
+  </parameters>
+  <content>
+      <message>
+      ---------------------------------------
+      | Scaffolding your PowerShell project |
+      ---------------------------------------
+        |  |\ /|  |   /| /|  |\  |  | / \ |
+        |  |/ \|  |  / |/ |  | \ |  |/   \| 
+      </message>
+      <message>Creating your module manifest for ${PLASTER_PARAM_ModuleName}</message>
+    <newModuleManifest 
+      destination='${PLASTER_PARAM_ModuleName}.psd1' 
+      moduleVersion = '$PLASTER_PARAM_Version' 
+      rootModule = '${PLASTER_PARAM_ModuleName}.psm1' 
+      encoding = 'UTF8-NoBOM'
+      author = '$PLASTER_PARAM_ModuleAuthor'
+      description = '$PLASTER_PARAM_Description'
+      openInEditor = "true"
+      />
+      <file source='Module.psm1' destination='${PLASTER_PARAM_ModuleName}.psm1'/>
+    <message>Creating required folders</message> 
+    <file destination='docs' source=''/>
+    <file destination='en-us' source=''/>
+    <message>Creating template files</message>
+    <templateFile source='changelog.txt' destination='changelog.txt'/>
+    <templateFile source='README.md' destination='README.md'/>
+    <templateFile source='license.txt' destination='license.txt'/>
+    <templateFile source='test\Module.T.ps1' destination='test\${PLASTER_PARAM_ModuleName}.Tests.ps1' />
+     <message>
+
+Your new PowerShell module project '$PLASTER_PARAM_ModuleName' has been created at $PLASTER_DestinationPath
+
+     </message>
+  </content>
+</plasterManifest>

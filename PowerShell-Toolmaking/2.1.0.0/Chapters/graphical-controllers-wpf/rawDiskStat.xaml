@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfDiskReport.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDiskReport"
+        mc:Ignorable="d"
+        Title="Disk Report" Height="355" Width="535" Background="#FFBDB3B3">
+    <Grid>
+        <Button x:Name="btnRun" Content="Run " HorizontalAlignment="Left" Height="20" Margin="348,291,0,0" VerticalAlignment="Top" Width="74"/>
+        <Button x:Name="btnQuit" Content="Quit" HorizontalAlignment="Left" Margin="438,291,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.365,-0.38"/>
+        <ComboBox x:Name="comboNames" HorizontalAlignment="Left" Height="20" Margin="11,30,0,0" VerticalAlignment="Top" Width="166"/>
+        <Label x:Name="label" Content="Select one or more computers" HorizontalAlignment="Left" Height="27" Margin="9,3,0,0" VerticalAlignment="Top" Width="206"/>
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" Height="229" Margin="10,55,0,0" VerticalAlignment="Top" Width="498"/>
+    </Grid>
+</Window>

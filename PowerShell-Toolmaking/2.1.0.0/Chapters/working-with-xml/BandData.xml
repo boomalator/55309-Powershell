@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+ This is a demonstration XML file 
+-->
+<Bands>
+  <Band>
+    <Name Year="1970" City="Boston, MA">Aerosmith</Name>
+    <Lead>Steven Tyler</Lead>
+    <Members>
+      <Member>Tom Hamilton</Member>
+      <Member>Joey Kramer</Member>
+      <Member>Joe Perry</Member>
+      <Member>Brad Whitford</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="1968" City="Toronto">Rush</Name>
+    <Lead>Geddy Lee</Lead>
+    <Members>
+      <Member>Alex Lifeson</Member>
+      <Member>Neil Peart</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="1968" City="Birmingham, England">Black Sabbath</Name>
+    <Lead>Ozzie Osbourne</Lead>
+    <Members>
+      <Member>Tony Iommi</Member>
+      <Member>Geezer Butler</Member>
+      <Member>Bill Ward</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Def Leppard</Name>
+    <Lead>Joe Elliott</Lead>
+    <Members>
+      <Member>Rick Allen</Member>
+      <Member>Phil Collen</Member>
+      <Member>Tony Kenning</Member>
+      <Member>Rick Savage</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Poison</Name>
+    <Lead>Bret Michaels</Lead>
+    <Members>
+      <Member>Rikki Rockett</Member>
+      <Member>C.C. DeVille</Member>
+      <Member>Bobby Dall</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Motley Crue</Name>
+    <Lead>Vince Neil</Lead>
+    <Members>
+      <Member>Nikki Sixx</Member>
+      <Member>Tommy Lee</Member>
+      <Member>Mick Mars</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">The Doors</Name>
+    <Lead>Jim Morrison</Lead>
+    <Members>
+      <Member>Ray Manzarek</Member>
+      <Member>John Densmore</Member>
+      <Member>Robby Krieger</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Nirvana</Name>
+    <Lead>Kurt Cobain</Lead>
+    <Members>
+      <Member>Dave Grohl</Member>
+      <Member>Krist Novoselic</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Deep Purple</Name>
+    <Lead>Ian Gillan</Lead>
+    <Members>
+      <Member>Jon Lord</Member>
+      <Member>Roger Glover</Member>
+      <Member>Ian Paice</Member>
+      <Member>Ritchie Blackmore</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Led Zeppelin</Name>
+    <Lead>Roger Plant</Lead>
+    <Members>
+      <Member>Jimmy Page</Member>
+      <Member>John Paul Jones</Member>
+      <Member>John Bonham</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Reo Speedwagon</Name>
+    <Lead>Kevin Cronin</Lead>
+    <Members>
+      <Member>Neal Doughty</Member>
+      <Member>Alan Gratzer</Member>
+      <Member>Gary Richrath</Member>
+      <Member>Bruce Hall</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Lynrd Skynrd</Name>
+    <Lead>Ronnie Van Zant</Lead>
+    <Members>
+      <Member>Allen Collins</Member>
+      <Member>Gary Rosssington</Member>
+      <Member>Leon Wilkeson</Member>
+      <Member>Billy Powell </Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Iron Maiden</Name>
+    <Lead>Bruce Dickinson</Lead>
+    <Members>
+      <Member>Steve Harris</Member>
+      <Member>Dave Murray</Member>
+      <Member>Adrian Smith</Member>
+      <Member>Nicko McBrain</Member>
+      <Member>Janick Gers</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">REM</Name>
+    <Lead>Michael Stipe</Lead>
+    <Members>
+      <Member>Peter Buck</Member>
+      <Member>Mike Mills</Member>
+      <Member>Bill Berry</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Guns N Roses</Name>
+    <Lead>Axl Rose</Lead>
+    <Members>
+      <Member>Saul Hudson</Member>
+      <Member>Izzy Stradlin</Member>
+      <Member>Steven Adler</Member>
+      <Member>Duff McKagan</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Skid Row</Name>
+    <Lead>Sebastian Bach</Lead>
+    <Members>
+      <Member>Dave Sabo</Member>
+      <Member>Scott Hill</Member>
+      <Member>Rachel Bolen</Member>
+      <Member>Rob Affuso</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Pink Floyd</Name>
+    <Lead>David Gilmour</Lead>
+    <Members>
+      <Member>Nick Mason</Member>
+      <Member>Roger Waters</Member>
+      <Member>Richard Wright</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Jethro Tull</Name>
+    <Lead>Ian Anderson</Lead>
+    <Members>
+      <Member>Martin Barre</Member>
+      <Member>Doane Perry</Member>
+      <Member>Dave Pegg</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">The Clash</Name>
+    <Lead>Joe Strummer</Lead>
+    <Members>
+      <Member>Mick Jones</Member>
+      <Member>Paul Simonen</Member>
+      <Member>Nicky Headon</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Queen</Name>
+    <Lead>Freddie Mercury</Lead>
+    <Members>
+      <Member>Brian May</Member>
+      <Member>Roger Taylor</Member>
+      <Member>John Deacon</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Cream</Name>
+    <Lead>Eric Clapton</Lead>
+    <Members>
+      <Member>Ginger Baker</Member>
+      <Member>Jack Bruce</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Foo Fighters</Name>
+    <Lead>Dave Grohl</Lead>
+    <Members>
+      <Member>Chris Shiflett</Member>
+      <Member>Pat Smear</Member>
+      <Member>Nate Mendel</Member>
+      <Member>Taylor Hawkins</Member>
+    </Members>
+  </Band>
+  <Band>
+    <Name Year="" City="">Triumph</Name>
+    <Lead>Rik Emmett</Lead>
+    <Members>
+      <Member>Gil Moore</Member>
+      <Member>Mike Levine</Member>
+    </Members>
+  </Band>
+</Bands>

@@ -1,0 +1,6 @@
+#TYPE Selected.System.ServiceProcess.ServiceController
+"Name","DisplayName","Status","StartType","Computername"
+"WinDefend","Windows Defender Service","Running","Automatic","SRV1"
+"WinHttpAutoProxySvc","WinHTTP Web Proxy Auto-Discovery Service","Running","Manual","SRV1"
+"Winmgmt","Windows Management Instrumentation","Running","Automatic","SRV1"
+"WinRM","Windows Remote Management (WS-Management)","Running","Automatic","SRV1"

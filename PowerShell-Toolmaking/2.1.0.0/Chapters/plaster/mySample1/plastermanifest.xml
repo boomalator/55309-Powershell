@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<plasterManifest schemaVersion="1.1" templateType="Project" 
+  xmlns="http://www.microsoft.com/schemas/PowerShell/Plaster/v1">
+  <metadata>
+    <name>MySample</name>
+    <id>c6cc56bb-e3cc-4af5-a38b-d97b9649ecef</id>
+    <version>1.0.0</version>
+    <title>MySample</title>
+    <description>my sample template</description>
+    <author>Art Deco</author>
+    <tags></tags>
+  </metadata>
+  <parameters>
+    <parameter name='ModuleName' type='text' prompt='Enter the name of the module'/>
+    <parameter name='Version' type='text' prompt='Enter the initial module version' default = '0.1.0'/>
+    <parameter name='Description' type='text' prompt='Enter a description of this module'/>
+    <parameter name="ModuleAuthor" type='user-fullname' prompt='Enter the module author name'/>
+  </parameters>
+  <content>
+  
+ <newModuleManifest 
+  destination='${PLASTER_PARAM_ModuleName}.psd1' 
+  moduleVersion = '$PLASTER_PARAM_Version' 
+  rootModule = '${PLASTER_PARAM_ModuleName}.psm1' 
+  encoding = 'UTF8-NoBOM'
+  author = '$PLASTER_PARAM_ModuleAuthor'
+  description = '$PLASTER_PARAM_Description'
+  openInEditor = "true"
+  />
+  
+<file destination='docs' source=''/>
+<file destination='en-us' source=''/>
+
+<file source='Module.psm1' destination='${PLASTER_PARAM_ModuleName}.psm1'/>
+<file source='changelog.txt' destination='changelog.txt'/>
+<file source='README.md' destination='README.md'/>
+<file source='license.txt' destination='license.txt'/>
+
+  </content>
+</plasterManifest>
