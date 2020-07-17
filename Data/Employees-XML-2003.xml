@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Byron P. Hynes</Author>
+  <LastAuthor>Byron P. Hynes</LastAuthor>
+  <Created>2020-07-17T13:47:33Z</Created>
+  <LastSaved>2020-07-17T13:56:32Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7455</WindowHeight>
+  <WindowWidth>17490</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="Hyperlink">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#0563C1"
+    ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1" ss:Italic="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="72.75"/>
+   <Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="63.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="111"/>
+   <Column ss:AutoFitWidth="0" ss:Width="121.5"/>
+   <Row ss:StyleID="s66">
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">ID</Data></Cell>
+    <Cell><Data ss:Type="String">Birthdate</Data></Cell>
+    <Cell><Data ss:Type="String">JobTitle</Data></Cell>
+    <Cell><Data ss:Type="String">EmailAddress</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Joe</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1966-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Technology Wizard</Data></Cell>
+    <Cell ss:StyleID="s63" ss:HRef="mailto:joe@multinatcorp.com"><Data
+      ss:Type="String">joe@multinatcorp.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bob</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1973-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Big Boss</Data></Cell>
+    <Cell ss:StyleID="s63" ss:HRef="mailto:bob@multinatcorp.com"><Data
+      ss:Type="String">bob@multinatcorp.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Mary</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1982-01-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Little Boss</Data></Cell>
+    <Cell ss:StyleID="s63" ss:HRef="mailto:mary@multinatcorp.com"><Data
+      ss:Type="String">mary@multinatcorp.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Jane</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">1985-10-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Grand Poobah</Data></Cell>
+    <Cell ss:StyleID="s63" ss:HRef="mailto:jane@multinatcorp.com"><Data
+      ss:Type="String">jane@multinatcorp.com</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Andreas</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2001-02-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Serf</Data></Cell>
+    <Cell ss:StyleID="s63" ss:HRef="mailto:andreas@multinatcorp.com"><Data
+      ss:Type="String">andreas@multinatcorp.com</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+     <RangeSelection>R1</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
