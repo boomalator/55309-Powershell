@@ -1,0 +1,28 @@
+Tool -- a script or function that does one thing.  
+
+"Controller" Script -- series of statments and commands (including cmdlets, functions [tools]) to achieve a larger task or set of tasks.
+
+Tool - can be (more) easily tested, and can be re-used in multiple (controller) scripts.
+
+Tools and controller scripts are often (usually) planned for distribution or use by others (end-users or technicians). 
+
+--
+A "script" is a group of commands, combined with flow-control logic. 
+
+Parameterize the script means identifying the inputs (parameters) that change with execution, and exposing them as parameters.
+
+Turn our script into a function to allow to be called from multiple scripts.
+
+Combine the functions into a Powershell Module for distribution (or "installation" in your own computer).
+
+Process:
+   - Modelling or designing or finding "use cases".
+      What do you expect this do? Who is the "user".
+      What would the user type? What do you expect them to provide (input). 
+    - Dividing this into individual tasks that can become tools.
+
+Advantages:
+  - Code resuse.... repeatability, consistency, less (human, configuration) errors
+  - Allows unit testing
+  - Extensible
+  - Maintainable
