@@ -1,0 +1,35 @@
+﻿# JSON, technically, does NOT support comments in the file. Some parsers ignore comments.
+
+# Name-Value Pairs... a name, and a value...
+"Name": "Byron Hynes"
+"ID": 666
+"isCrazy": true
+"isDeceased":null
+
+# An Object
+# The object is delimited by curly brackets {}, and inside we will see one or more value pair(s) and a comma will be separating each one of them. An example is:
+{
+"Country":  "Netherlands",
+"Capital":  "Amsterdam"
+}
+
+# An Array
+# An array is comprised of square brackets []. All values inside of an array are separated by comma (,).
+[
+	{
+		"Country":"Netherlands",
+		"Capital":"Amsterdam"
+	},
+	{
+		"Country":"Argentina",
+		"Capital":"Buenos Aires"
+	},
+	{
+		"Country";"Cambodia",
+		"Capital":"Phnom Penh"
+	}
+]
+
+# Online validators like http://jsonlint.com help.
+# Editors like Visual Studio Code or Notepad++ can recognize JSON
+
