@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Zoë</Property>
+    <Property Name="ID" Type="System.String">3</Property>
+    <Property Name="Birthdate" Type="System.String">1966-09-11</Property>
+    <Property Name="JobTitle" Type="System.String">Technology Wizard</Property>
+    <Property Name="EmailAddress" Type="System.String">joe@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Bob</Property>
+    <Property Name="ID" Type="System.String">1</Property>
+    <Property Name="Birthdate" Type="System.String">1973-08-22</Property>
+    <Property Name="JobTitle" Type="System.String">Big Boss</Property>
+    <Property Name="EmailAddress" Type="System.String">bob@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Mary</Property>
+    <Property Name="ID" Type="System.String">2</Property>
+    <Property Name="Birthdate" Type="System.String">1982-01-01</Property>
+    <Property Name="JobTitle" Type="System.String">Little Boss</Property>
+    <Property Name="EmailAddress" Type="System.String">mary@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Jane</Property>
+    <Property Name="ID" Type="System.String">5</Property>
+    <Property Name="Birthdate" Type="System.String">1985-10-31</Property>
+    <Property Name="JobTitle" Type="System.String">Grand Poobah</Property>
+    <Property Name="EmailAddress" Type="System.String">jane@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Andreas</Property>
+    <Property Name="ID" Type="System.String">4</Property>
+    <Property Name="Birthdate" Type="System.String">2001-02-15</Property>
+    <Property Name="JobTitle" Type="System.String">Serf</Property>
+    <Property Name="EmailAddress" Type="System.String">andreas@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Darrian</Property>
+    <Property Name="ID" Type="System.String">6</Property>
+    <Property Name="Birthdate" Type="System.String">1997-07-01</Property>
+    <Property Name="JobTitle" Type="System.String">Chief in charge of stuff, things, and items</Property>
+    <Property Name="EmailAddress" Type="System.String">darrian@multinatcorp.com</Property>
+  </Object>
+  <Object Type="System.Management.Automation.PSCustomObject">
+    <Property Name="Name" Type="System.String">Jack</Property>
+    <Property Name="ID" Type="System.String">7</Property>
+    <Property Name="Birthdate" Type="System.String">2007-01-05</Property>
+    <Property Name="JobTitle" Type="System.String">Great Guy</Property>
+    <Property Name="EmailAddress" Type="System.String">jack@multinatcorp.com</Property>
+  </Object>
+</Objects>
