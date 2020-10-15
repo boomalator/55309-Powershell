@@ -35,5 +35,12 @@ for ($i = 100; $i -le 103; $i++) {
 Write-Host 'After the loop, script $i is' $i -ForegroundColor DarkYellow
 Write-Host 'After the loop, script $a is' $a -ForegroundColor DarkYellow
 
+$a = 3333
+Write-Host 'After the end, $a is now is' $a -ForegroundColor DarkYellow
+
+
 $b = "Script"
 Write-Host 'After the end, script $b is' $b -ForegroundColor DarkYellow
+
+
+

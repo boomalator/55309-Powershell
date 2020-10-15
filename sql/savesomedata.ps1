@@ -2,10 +2,10 @@
 
 $connParams = 
 @{
-    'Database' = 'AdventureWorks'
-    'ServerInstance' = 'bphdemos.database.windows.net'
-    'Username' = $userStr
-    'Password' = $passwdStr
+    'Database' = 'TempDB'
+    'ServerInstance' = 'finity'
+    'Username' = 'pwsh'
+    'Password' = 'Pa$$w0rd'
     'OutputSqlErrors' = $true
 }
 

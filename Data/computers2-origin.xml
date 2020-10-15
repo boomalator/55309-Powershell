@@ -1,0 +1,14 @@
+<computers>
+  <computer name="Alpha">
+    <biosserial />
+    <osversion>10.0.14393</osversion>
+  </computer>
+  <computer name="Bravo">
+    <biosserial />
+    <osversion>6.3.9600</osversion>
+  </computer>
+  <computer name="Echo">
+    <biosserial />
+    <osversion>10.0.15063</osversion>
+  </computer>
+</computers>
