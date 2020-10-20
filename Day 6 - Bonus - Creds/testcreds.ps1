@@ -38,10 +38,10 @@ Start-process powershell.exe -credential ($SuperUser)  -NoNewWindow `
 
 # Run a PS Script File -- note, run on the computer hosting the resources unless you set up delegation
 # works
-Invoke-Command -Credential $SuperUser -ComputerName Alpha -FilePath C:\scripts\remove-text.ps1 
+Invoke-Command -Credential $SuperUser -ComputerName Alpha -FilePath C:\scripts\remove-test.ps1 
 
 # fails unless you set up delegation, 
-# Invoke-Command -Credential $SuperUser -ComputerName Echo -FilePath C:\scripts\remove-text.ps1 
+# Invoke-Command -Credential $SuperUser -ComputerName Echo -FilePath C:\scripts\remove-test.ps1 
 
 # Just Invoke the Command (without a file) as a scriptblock -- note, run on the computer hosting the resources unless you set up delegation
 

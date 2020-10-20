@@ -1,0 +1,1 @@
+while ($true){$username=read-host "Enter Name"; new-aduser -name $username -samaccountname $username -givenname $username -userprincipalname $username@hq.local -path "ou=students,ou=labs,dc=hq,dc=local" -enabled $true -changepasswordatlogon $false -accountpassword (convertto-securestring "TrustM3" -asplaintext -force)}
