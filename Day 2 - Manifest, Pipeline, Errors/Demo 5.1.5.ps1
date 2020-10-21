@@ -1,0 +1,1 @@
+﻿Get-WmiObject -Class Win32_BIOS -ComputerName (Get-Content c:\Scripts\computers.txt)
