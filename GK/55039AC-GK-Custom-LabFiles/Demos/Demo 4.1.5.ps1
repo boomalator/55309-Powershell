@@ -6,7 +6,7 @@
     Try {
         Get-CimInstance -EA Stop -EV x -ClassName Win32_LogicalDisk -Filter "DriveType=$DriveType" -ComputerName $computername
     } Catch {
-        Write-Warning "Error on $computername was $x"
+        Write-Warning "Error on $computername was $($x.ErrorRecord)"
     }
 }
 

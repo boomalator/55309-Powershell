@@ -14,7 +14,7 @@ function Show-TheThing {
         foreach ($singleThing in $thing) {
             Write-Verbose "Top of ForEach Loop"  
             Write-Verbose "   `$thing = ~$thing~"
-            Write-Host "   `$singleThing = ~$singlething~"
+            Write-Host    "   `$singleThing = ~$singlething~"
         }
     }
     
