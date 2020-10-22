@@ -23,11 +23,11 @@ C:\Scripts\Retry.txt.
 function Get-OSInfo {
 [CmdletBinding()]
     param(
-        [Parameter(Mandatory=$True,
-                   ValueFromPipeline=$True,
-                   ValueFromPipelineByPropertyName=$True)]
+        [Parameter(ValueFromPipeline=$True,
+                   ValueFromPipelineByPropertyName=$True,
+                   HelpMessage="Computer Name or IP")]
         [Alias('hostname')]
-        [string[]]$ComputerName,
+        [string[]]$ComputerName = ( Read-Host "Enter a computername or IP address" )  ,
 
         [string]$ErrorLog = 'c:\Scripts\retry.txt',
 
@@ -39,6 +39,8 @@ function Get-OSInfo {
     PROCESS {
         foreach ($computer in $computername) {       
                 Try {
+                    if ($Computer.Length -eq 0)
+                        { $computer = "." }
 
                     Write-Verbose "Connecting to $computer"
                     $gwmi = @{
@@ -61,7 +63,7 @@ function Get-OSInfo {
                        'Manufacturer'=$cs.manufacturer;
                        'Model'=$cs.model}
 
-                    $obj = New-Object –TypeName PSObject –Property $props
+                    $obj = New-Object -TypeName PSObject -Property $props
                     $obj.psobject.typenames.insert(0,'MOL.SystemInfo');
                     Write-Output $obj
                 } Catch {
