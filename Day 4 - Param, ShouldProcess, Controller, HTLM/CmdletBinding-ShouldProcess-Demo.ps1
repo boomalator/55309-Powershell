@@ -1,17 +1,17 @@
 ﻿function one {
     Param()
-    Write-Host "This is One" -ForegroundColor White
+    Write-Host "This is One (no CmdletBinding)" -ForegroundColor White
 }
 
 function two {
     [CmdletBinding()]
     Param()
-    Write-Host "This is Two" -ForegroundColor Green
+    Write-Host "This is Two (with CmdletBinding)" -ForegroundColor Green
 }
 
 function three {
     Param()
-    Write-Host "Tthrehis is Three" -ForegroundColor Cyan
+    Write-Host "This is Three (no CmdletBinding)" -ForegroundColor Cyan
     Write-Verbose "[3] Let's be a Chatty Kathy"
     Write-Debug "[3] This is a bit of trivia"
 }
@@ -19,7 +19,7 @@ function three {
 function four {
     [CmdletBinding()]
     Param()
-    Write-Host "This is Four" -ForegroundColor Yellow
+    Write-Host "This is Four (with CmdletBinding)" -ForegroundColor Yellow
     Write-Verbose "[4] Let's be a Chatty Kathy"
     Write-Debug "[4] This is a bit of trivia"
 }
@@ -70,7 +70,7 @@ function echo-ComputerName {
     )
     
     BEGIN {
-        Write-Verbose "Function Six Starting" 
+        Write-Verbose "Function echo-computername Starting" 
     }
     
     PROCESS{
@@ -83,6 +83,9 @@ function echo-ComputerName {
     }
     
     END {
-        Write-Verbose "Function Six Ending"
+        Write-Verbose "Function echo-computername Ending"
     }
 }
+
+
+echo-computername Alpha, Echo, Bravo

@@ -21,7 +21,7 @@ C:\Scripts\Retry.txt.
  Get-OSInfo -ComputerName SERVER1,SERVER2
 #>
 function Get-OSInfo {
-[CmdletBinding()]
+
     param(
         [Parameter(Mandatory=$True,
                    ValueFromPipeline=$True,
