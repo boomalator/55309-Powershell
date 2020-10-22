@@ -88,4 +88,4 @@ function echo-ComputerName {
 }
 
 
-echo-computername Alpha, Echo, Bravo
+#echo-computername Alpha, Echo, Bravo
