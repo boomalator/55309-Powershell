@@ -7,14 +7,16 @@
 "isDeceased":null
 
 # An Object
-# The object is delimited by curly brackets {}, and inside we will see one or more value pair(s) and a comma will be separating each one of them. An example is:
+# The object is delimited by curly brackets {}, and inside we will 
+# see one or more value pair(s) and a comma will be separating each one of them. An example is:
 {
 "Country":  "Netherlands",
 "Capital":  "Amsterdam"
 }
 
 # An Array
-# An array is comprised of square brackets []. All values inside of an array are separated by comma (,).
+# An array is comprised of square brackets [].
+# All values inside of an array are separated by comma (,).
 [
 	{
 		"Country":"Netherlands",
