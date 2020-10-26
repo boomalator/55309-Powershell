@@ -1,4 +1,20 @@
-﻿Workflow Test-Workflow {
+﻿<#
+Powershell Workflows
+
+Advantages:
+- Built-in Remoting
+- Sequencencing (Parallelism)
+- Persistence
+- Can improve performance
+
+Drawbacks:
+- Deprecated in PS 6+
+- Complex to configure and test
+- Commands converted to WF Actions
+
+#>
+
+Workflow Test-Workflow {
     "$((get-date).tostring('mm:ss.fff')) This will run first"
 
     parallel {
