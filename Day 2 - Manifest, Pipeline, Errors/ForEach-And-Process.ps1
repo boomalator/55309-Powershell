@@ -34,7 +34,7 @@ Show-TheThing -thing 1, 2, 3 -Verbose
 <#
 
 Without a PROCESS block, but with a FOREACH loop, the loop will only process the LAST object passed on the pipeline. 
-With a PROCESS block, but without a FOREACH loop, the an array on the parameter will not be enumerated.
+With a PROCESS block, but without a FOREACH loop, an array on the parameter will not be enumerated.
 
 In all practical situations, if you accept multiple inputs, 
 and you accept values from the pipeline (and you should!), 
