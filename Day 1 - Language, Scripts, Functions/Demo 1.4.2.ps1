@@ -2,7 +2,7 @@
 [int]$drivetype = Read-Host "Enter a drive type 0-6"
 
 switch ($drivetype) {
-    0 { Write "Unknown" }
+    0 { Write "Unknown"  }
     1 { Write "No root" }
     2 { Write "Removable" }
     3 { Write "Local" }
