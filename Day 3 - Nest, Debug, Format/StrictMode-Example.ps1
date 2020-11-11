@@ -4,12 +4,16 @@
  
 
  Set-StrictMode -Version 1
+ # Set-StrictMode -Off
  #Set-StrictMode -version latest
  
  ## Make a custom object with one property:
  $someObject = [pscustomobject]@{ SomeProperty = 'foo'  }
 
  # Use a nonexistent property of the object:
+
+ Write-Host "The value of our property is '$($someobject.Nonexistentpropery)'."
+
  if ($someObject.NonExistentProperty) {
     Write-Host  'NonExistentProperty' exists
  } else {
