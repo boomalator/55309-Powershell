@@ -3,13 +3,13 @@
 workflow Test-Workflow {
     
     $a = 1
-    $a
+    "A is $a after a=1"
 
     $a++
-    $a
+    "A is $a after a++"
 
     $b = $a + 2
-    $b
+    "B is $b ater $a + 2"
 
 }
 
