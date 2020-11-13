@@ -38,6 +38,7 @@ Workflow Test-Workflow {
    }
 }
 
+cls
 "$((get-date).tostring('mm:ss.fff')) Workflow compiling starts..."
 
 Test-Workflow

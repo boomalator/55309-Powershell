@@ -268,7 +268,7 @@ Function New-OrgMailbox {
         Start-Sleep -Seconds 2
         Set-Mailbox -Identity $upn -type Shared #-WhatIf
     }
-cls
+
     Start-Sleep -Seconds 2
     Set-SimpleDisplayName -alias $alias -SimpleDisplayName $FullName
 
