@@ -3,4 +3,4 @@ Function Out-CatFact {
     Write-Host $fact -ForegroundColor Cyan
 }
 
-Out-CatFact
+Out-CatFact 
