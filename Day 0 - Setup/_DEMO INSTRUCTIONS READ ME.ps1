@@ -13,4 +13,5 @@ described in the student manual.
 In some cases, students will need to copy PowerShell modules from
 ClassPack to their Modules folder. This starts happening in Module 11.
 
+
 #>
